@@ -54,7 +54,7 @@ $ make test
 ## Commit
 
 ```console
-$ git commit --message "commit message"
+$ git commit --all --message "commit message"
 ```
 
 Where `commit message` is a relevant commit message related to the resolution of the issue.
