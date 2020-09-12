@@ -1,5 +1,7 @@
 # http
 
+[![Unit Tests](https://github.com/folded-php/http/workflows/Unit%20Tests/badge.svg)](https://github.com/folded-php/http/actions?query=workflow%3A%22Unit+Tests%22)
+
 HTTP utilities for your web app.
 
 ## Summary
