@@ -68,7 +68,7 @@ HTTP utilities for your web app.
         - [Service unavailable](#service-unavailable)
         - [Gateway timeout](#gateway-timeout)
         - [Http version not supported](#http-version-not-supported)
-        - [Variant also negotiates](#variant-also-negoatiates)
+        - [Variant also negotiates](#variant-also-negotiates)
         - [Insufficient storage](#insufficient-storage)
         - [Loop detected](#loop-detected)
         - [Not extended](#not-extended)
