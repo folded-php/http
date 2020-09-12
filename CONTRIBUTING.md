@@ -27,13 +27,13 @@
 
 Choose an [issue](https://github.com/folded-php/http/issues) to resolve.
 
-[Go back to summary](#summary).
+[:arrow_up: Go back to summary](#summary).
 
 ## Fork
 
 See [Fork a repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 
-[Go back to summary](#summary).
+[:arrow_up: Go back to summary](#summary).
 
 ## Installation
 
@@ -44,7 +44,7 @@ $ cd ~/github.com/$USER/http
 
 Where `$USER` is your GitHub's username.
 
-[Go back to summary](#summary).
+[:arrow_up: Go back to summary](#summary).
 
 ## Checkout
 
@@ -54,7 +54,7 @@ $ git checkout -b branch-name
 
 Where `branch-name` is a relevant branch name related to the resolution of the issue.
 
-[Go back to summary](#summary).
+[:arrow_up: Go back to summary](#summary).
 
 ## Dependencies
 
@@ -63,13 +63,13 @@ $ make          # short alias
 $ make install  # long alias
 ```
 
-[Go back to summary](#summary).
+[:arrow_up: Go back to summary](#summary).
 
 ## Resolution
 
 Append changes until the issue is resolved.
 
-[Go back to summary](#summary).
+[:arrow_up: Go back to summary](#summary).
 
 ## Tests
 
@@ -77,7 +77,7 @@ Append changes until the issue is resolved.
 $ make test
 ```
 
-[Go back to summary](#summary).
+[:arrow_up: Go back to summary](#summary).
 
 ## Commit
 
@@ -87,7 +87,7 @@ $ git commit --all --message "commit message"
 
 Where `commit message` is a relevant commit message related to the resolution of the issue.
 
-[Go back to summary](#summary).
+[:arrow_up: Go back to summary](#summary).
 
 ## Push
 
@@ -95,10 +95,10 @@ Where `commit message` is a relevant commit message related to the resolution of
 $ git push --set-upstream origin branch-name
 ```
 
-[Go back to summary](#summary).
+[:arrow_up: Go back to summary](#summary).
 
 ## Pull request
 
 See [Creating a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-[Go back to summary](#summary).
+[:arrow_up: Go back to summary](#summary).
