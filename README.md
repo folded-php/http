@@ -75,6 +75,7 @@ HTTP utilities for your web app.
         - [Loop detected](#loop-detected)
         - [Not extended](#not-extended)
         - [Network authentication required](#network-authentication-required)
+- [Changelog](#changelog)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -861,6 +862,12 @@ use Http\ServerError;
 
 echo ServerError::NETWORK_AUTHENTICATION_REQUIRED; // 511
 ```
+
+[:arrow_up: Back to summary](#summary).
+
+## Changelog
+
+See [`CHANGELOG.md`](./CHANGELOG.md).
 
 [:arrow_up: Back to summary](#summary).
 
