@@ -5,11 +5,17 @@
 
 .PHONY: build test install
 
+DOCKER_COMPOSE_RUN_OPTIONS=--rm
+
+ifeq (${CI},true)
+	DOCKER_COMPOSE_RUN_OPTIONS=--rm -T --user root
+endif
+
 install: build
-	docker-compose run --rm composer install
+	docker-compose run $(DOCKER_COMPOSE_RUN_OPTIONS) composer install
 
 build:
 	docker-compose build
 
 test: build
-	docker-compose run --rm php vendor/bin/phpunit tests
+	docker-compose run $(DOCKER_COMPOSE_RUN_OPTIONS) php vendor/bin/phpunit tests
