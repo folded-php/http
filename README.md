@@ -19,7 +19,7 @@ HTTP utilities for your web app.
         - [Reset content](#reset-content)
         - [Partial content](#partial-content)
         - [Multi-status](#multi-status)
-        - [Already reported](#alread-reported)
+        - [Already reported](#already-reported)
         - [Instance-manipulations used](#instance-manipulations-used)
     - [Redirection](#redirection)
         - [Multiple choices](#multiple-choices)
