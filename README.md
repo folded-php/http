@@ -83,9 +83,15 @@ HTTP utilities for your web app.
 $ composer require folded/http
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 ## API
 
+[:arrow_up: Back to summary](#summary).
+
 ### Information response
+
+[:arrow_up: Back to summary](#summary).
 
 #### Continue
 
@@ -97,6 +103,8 @@ use Http\Information;
 echo Information::CONTINUE; // 100
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Switching protocols
 
 ```php
@@ -106,6 +114,8 @@ use Http\Information;
 
 echo Information::SWITCHING_PROTOCOLS; // 101
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Processing
 
@@ -117,6 +127,8 @@ use Http\Information;
 echo Information::PROCESSING; // 102
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Early hints
 
 ```php
@@ -126,6 +138,8 @@ use Http\Information;
 
 echo Information::EARLY_HINTS; // 103
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 ### Success
 
@@ -137,6 +151,8 @@ use Http\Success;
 echo Success::OK; // 200
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Created
 
 ```php
@@ -146,6 +162,8 @@ use Http\Success;
 
 echo Success::CREATED; // 201
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Accepted
 
@@ -157,6 +175,8 @@ use Http\Success;
 echo Success::ACCEPTED; // 202
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Non-authoritative information
 
 ```php
@@ -166,6 +186,8 @@ use Http\Success;
 
 echo Success::NON_AUTHORITATIVE_INFORMATION; // 203
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### No content
 
@@ -177,6 +199,8 @@ use Http\Success;
 echo Success::NO_CONTENT; // 204
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Reset content
 
 ```php
@@ -186,6 +210,8 @@ use Http\Success;
 
 echo Success::RESET_CONTENT; // 205
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Partial content
 
@@ -197,6 +223,8 @@ use Http\Success;
 echo Success::PARTIAL_CONTENT; // 206
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Multi-status
 
 ```php
@@ -206,6 +234,8 @@ use Http\Success;
 
 echo Success::MULTI_STATUS; // 207
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Already reported
 
@@ -217,6 +247,8 @@ use Http\Success;
 echo Success::ALREADY_REPORTED; // 208
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Instance-manipulations used
 
 ```php
@@ -227,7 +259,11 @@ use Http\Success;
 echo Success::IM_USED; // 226
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 ### Redirection
+
+[:arrow_up: Back to summary](#summary).
 
 #### Multiple choices
 
@@ -239,6 +275,8 @@ use Http\Redirection;
 echo Redirection::MULTIPLE_CHOICES; // 300
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Moved permanently
 
 ```php
@@ -248,6 +286,8 @@ use Http\Redirection;
 
 echo Redirection::MOVED_PERMANENTLY; // 301
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Found (moved temporarily)
 
@@ -260,6 +300,8 @@ echo Redirection::FOUND;                // 302
 echo Redirection::MOVED_TEMPORARILY;    // 302
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### See other
 
 ```php
@@ -269,6 +311,8 @@ use Http\Redirection;
 
 echo Redirection::SEE_OTHER; // 303
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Not modified
 
@@ -280,6 +324,8 @@ use Http\Redirection;
 echo Redirection::NOT_MODIFIED; // 304
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Use proxy
 
 ```php
@@ -289,6 +335,8 @@ use Http\Redirection;
 
 echo Redirection::USE_PROXY; // 305
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Switch proxy
 
@@ -300,6 +348,8 @@ use Http\Redirection;
 echo Redirection::SWITCH_PROXY; // 306
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Temporary redirect
 
 ```php
@@ -309,6 +359,8 @@ use Http\Redirection;
 
 echo Redirection::TEMPORARY_REDIRECT; // 307
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Permanent redirect
 
@@ -320,7 +372,11 @@ use Http\Redirection;
 echo Redirection::PERMANENT_REDIRECT; // 308
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 ### Error
+
+[:arrow_up: Back to summary](#summary).
 
 #### Bad request
 
@@ -332,6 +388,8 @@ use Http\Error;
 echo Error::BAD_REQUEST; // 400
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Unauthorized
 
 ```php
@@ -341,6 +399,8 @@ use Http\Error;
 
 echo Error::UNAUTHORIZED; // 401
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Payment required
 
@@ -352,6 +412,8 @@ use Http\Error;
 echo Error::PAYMENT_REQUIRED; // 402
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Forbidden
 
 ```php
@@ -361,6 +423,8 @@ use Http\Error;
 
 echo Error::FORBIDDEN; // 403
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Not found
 
@@ -372,6 +436,8 @@ use Http\Error;
 echo Error::NOT_FOUND; // 404
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Method not allowed
 
 ```php
@@ -381,6 +447,8 @@ use Http\Error;
 
 echo Error::METHOD_NOT_ALLOWED; // 405
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Not acceptable
 
@@ -392,6 +460,8 @@ use Http\Error;
 echo Error::NOT_ACCEPTABLE; // 406
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Proxy authentication required
 
 ```php
@@ -401,6 +471,8 @@ use Http\Error;
 
 echo Error::PROXY_AUTHENTICATION_REQUIRED; // 407
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Request timeout
 
@@ -412,6 +484,8 @@ use Http\Error;
 echo Error::REQUEST_TIMEOUT; // 408
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Conflict
 
 ```php
@@ -421,6 +495,8 @@ use Http\Error;
 
 echo Error::CONFLICT; // 409
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Gone
 
@@ -432,6 +508,8 @@ use Http\Error;
 echo Error::GONE; // 410
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Length required
 
 ```php
@@ -441,6 +519,8 @@ use Http\Error;
 
 echo Error::LENGTH_REQUIRED; // 411
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Precondition failed
 
@@ -452,6 +532,8 @@ use Http\Error;
 echo Error::PRECONDITION_FAILED; // 412
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Payload too large
 
 ```php
@@ -461,6 +543,8 @@ use Http\Error;
 
 echo Error::PAYLOAD_TOO_LARGE; // 413
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### URI too long
 
@@ -472,6 +556,8 @@ use Http\Error;
 echo Error::URI_TOO_LONG; // 414
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Unsupported media type
 
 ```php
@@ -481,6 +567,8 @@ use Http\Error;
 
 echo Error::UNSUPPORTED_MEDIA_TYPE; // 415
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Range not satisfiable
 
@@ -492,6 +580,8 @@ use Http\Error;
 echo Error::RANGE_NOT_SATISFIABLE; // 416
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Expectation failed
 
 ```php
@@ -501,6 +591,8 @@ use Http\Error;
 
 echo Error::EXPECTATION_FAILED; // 417
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### I'm a teapot
 
@@ -512,6 +604,8 @@ use Http\Error;
 echo Error::IM_A_TEAPOT; // 418
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Misdirected request
 
 ```php
@@ -521,6 +615,8 @@ use Http\Error;
 
 echo Error::MISDIRECTED_REQUEST; // 419
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Unprocessable entity
 
@@ -532,6 +628,8 @@ use Http\Error;
 echo Error::UNPROCESSABLE_ENTITY; // 422
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Locked
 
 ```php
@@ -541,6 +639,8 @@ use Http\Error;
 
 echo Error::LOCKED; // 423
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Failed dependency
 
@@ -552,6 +652,8 @@ use Http\Error;
 echo Error::FAILED_DEPENDENCY; // 424
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Too early
 
 ```php
@@ -561,6 +663,8 @@ use Http\Error;
 
 echo Error::TOO_EARLY; // 425
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Upgrade required
 
@@ -572,6 +676,8 @@ use Http\Error;
 echo Error::UPGRADE_REQUIRED; // 426
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Precondition required
 
 ```php
@@ -581,6 +687,8 @@ use Http\Error;
 
 echo Error::PRECONDITION_REQUIRED; // 428
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Too many requests
 
@@ -592,6 +700,8 @@ use Http\Error;
 echo Error::TOO_MANY_REQUESTS; // 429
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Request header fields too large
 
 ```php
@@ -601,6 +711,8 @@ use Http\Error;
 
 echo Error::REQUEST_HEADER_FIELDS_TOO_LARGE; // 431
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Unavailable for legal reasons
 
@@ -612,7 +724,11 @@ use Http\Error;
 echo Error::UNAVAILABLE_FOR_LEGAL_REASONS; // 451
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 ### Server error
+
+[:arrow_up: Back to summary](#summary).
 
 #### Internal server error
 
@@ -624,6 +740,8 @@ use Http\ServerError;
 echo ServerError::INTERNAL_SERVER_ERROR; // 500
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Not implemented
 
 ```php
@@ -633,6 +751,8 @@ use Http\ServerError;
 
 echo ServerError::NOT_IMPLEMENTED; // 501
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Bad gateway
 
@@ -644,6 +764,8 @@ use Http\ServerError;
 echo ServerError::BAD_GATEWAY; // 502
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Service unavailable
 
 ```php
@@ -653,6 +775,8 @@ use Http\ServerError;
 
 echo ServerError::SERVICE_UNAVAILABLE; // 503
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Gateway timeout
 
@@ -664,6 +788,8 @@ use Http\ServerError;
 echo ServerError::GATEWAY_TIMEOUT; // 504
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Http version not supported
 
 ```php
@@ -673,6 +799,8 @@ use Http\ServerError;
 
 echo ServerError::HTTP_VERSION_NOT_SUPPORTED; // 505
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Variant also negotiates
 
@@ -684,6 +812,8 @@ use Http\ServerError;
 echo ServerError::VARIANT_ALSO_NEGOTIATES; // 506
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Insufficient storage
 
 ```php
@@ -693,6 +823,8 @@ use Http\ServerError;
 
 echo ServerError::INSUFFICIENT_STORAGE; // 507
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Loop detected
 
@@ -704,6 +836,8 @@ use Http\ServerError;
 echo ServerError::LOOP_DETECTED; // 508
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 #### Not extended
 
 ```php
@@ -713,6 +847,8 @@ use Http\ServerError;
 
 echo ServerError::NOT_EXTENDED; // 510
 ```
+
+[:arrow_up: Back to summary](#summary).
 
 #### Network authentication required
 
@@ -724,10 +860,16 @@ use Http\ServerError;
 echo ServerError::NETWORK_AUTHENTICATION_REQUIRED; // 511
 ```
 
+[:arrow_up: Back to summary](#summary).
+
 ## Contributing
 
 See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
+[:arrow_up: Back to summary](#summary).
+
 ## License
 
 See [`LICENSE`](./LICENSE).
+
+[:arrow_up: Back to summary](#summary).
