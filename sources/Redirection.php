@@ -15,7 +15,7 @@ final class Redirection
 {
     public const FOUND = 302;
     public const MOVED_PERMANENTLY = 301;
-    public const MOVED_TEMPORARILY = 303;
+    public const MOVED_TEMPORARILY = 302;
     public const MULTIPLE_CHOICES = 300;
     public const NOT_MODIFIED = 304;
     public const PERMANENT_REDIRECT = 308;
