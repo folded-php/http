@@ -648,3 +648,11 @@ use Http\ServerError;
 
 echo ServerError::NETWORK_AUTHENTICATION_REQUIRED; // 511
 ```
+
+## Contributing
+
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+
+## License
+
+See [`LICENSE`](./LICENSE).
