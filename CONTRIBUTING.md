@@ -21,7 +21,7 @@
 - [Docker Compose](https://docs.docker.com/compose/)
 - [GNU/Make](https://www.gnu.org/software/make/)
 
-[Go back to summary](#summary).
+[:arrow_up: Go back to summary](#summary).
 
 ## Issue
 
