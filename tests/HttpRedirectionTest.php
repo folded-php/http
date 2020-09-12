@@ -27,6 +27,7 @@ final class HttpRedirectionTest extends TestCase
     public final function testFound(): void
     {
         $this->assertEquals(Redirection::FOUND, 302);
+        $this->assertEquals(Redirection::MOVED_TEMPORARILY, 302);
     }
 
     public final function testSeeOther(): void
