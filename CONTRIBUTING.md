@@ -12,7 +12,7 @@
 - [Tests](#tests)
 - [Commit](#commit)
 - [Push](#push)
-- [Pull request](#pull_request)
+- [Pull request](#pull-request)
 
 ## Requirements
 
