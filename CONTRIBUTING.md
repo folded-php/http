@@ -10,6 +10,7 @@
 - [Dependencies](#dependencies)
 - [Resolution](#resoltution)
 - [Tests](#tests)
+- [Lint](#lint)
 - [Clean (optional)](#clean-optional)
 - [Commit](#commit)
 - [Push](#push)
@@ -76,6 +77,14 @@ Append changes until the issue is resolved.
 
 ```console
 $ make test
+```
+
+[:arrow_up: Go back to summary](#summary).
+
+## Lint
+
+```console
+$ make lint
 ```
 
 [:arrow_up: Go back to summary](#summary).
