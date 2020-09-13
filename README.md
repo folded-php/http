@@ -7,6 +7,7 @@ HTTP utilities for your web app.
 ## Summary
 
 - [Installation](#installation)
+- [Requirements](#requirements)
 - [API](#api)
   - [Information response](#information-response)
     - [Continue](#continue)
@@ -78,6 +79,11 @@ HTTP utilities for your web app.
 - [Changelog](#changelog)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Requirements
+
+- [PHP 7.1 (at least)](https://www.php.net/downloads)
+- [Composer](https://getcomposer.org/)
 
 ## Installation
 
