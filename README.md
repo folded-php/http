@@ -1,4 +1,4 @@
-# http
+# :globe_with_meridians: http
 
 [![Packagist License](https://img.shields.io/packagist/l/folded/http)](https://github.com/folded-php/http/blob/next/LICENSE) ![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/folded/http) [![Packagist Version](https://img.shields.io/packagist/v/folded/http)](https://packagist.org/packages/folded/http) [![Unit Tests](https://github.com/folded-php/http/workflows/Unit%20Tests/badge.svg)](https://github.com/folded-php/http/actions?query=workflow%3A%22Unit+Tests%22) [![Maintainability](https://api.codeclimate.com/v1/badges/eded14cbb9d6cc3eec45/maintainability)](https://codeclimate.com/github/folded-php/http/maintainability)
 
