@@ -13,7 +13,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/folded/http/issues",
+        "issues": "https://github.com/folded-php/http/issues",
         "source": "https://github.com/folded/http"
     },
     "keywords": [
