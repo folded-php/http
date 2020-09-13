@@ -23,3 +23,12 @@ services:
         command: --version
         volumes:
             - .:/home/php
+
+    shell:
+        build: docker/shell
+        user: shell
+        working_dir: /home/shell
+        entrypoint: bash
+        command: --version
+        volumes:
+            - .:/home/shell
