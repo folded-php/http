@@ -2,8 +2,15 @@
 
 ## Summary
 
+- [`0.1.2`](#011)
 - [`0.1.1`](#011)
 - [`0.1.0`](#010)
+
+## `0.1.2`
+
+- :bug: fixed an issue with the homepage of the composer configuration ([#5](./pull/5))
+- :bug: fixed an issue with the issue link in the composer configuration ([#7](./pull/7))
+- :sparkles: fixed merge conflicts ([#6](./pull/6))
 
 ## `0.1.1`
 
