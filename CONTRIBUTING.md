@@ -10,6 +10,7 @@
 - [Dependencies](#dependencies)
 - [Resolution](#resoltution)
 - [Tests](#tests)
+- [Clean (optional)](#clean-optional)
 - [Commit](#commit)
 - [Push](#push)
 - [Pull request](#pull-request)
@@ -75,6 +76,16 @@ Append changes until the issue is resolved.
 
 ```console
 $ make test
+```
+
+[:arrow_up: Go back to summary](#summary).
+
+## Clean (optional)
+
+*This will remove all files listed in the `.gitignore` file.*
+
+```console
+$ make clean
 ```
 
 [:arrow_up: Go back to summary](#summary).
