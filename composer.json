@@ -2,7 +2,7 @@
     "name": "folded/http",
     "description": "HTTP utilities for your web app.",
     "type": "library",
-    "homepage": "https://github.com/folded/http#readme",
+    "homepage": "https://github.com/folded-php/http#readme",
     "readme": "./README.md",
     "license": "MIT",
     "authors": [
