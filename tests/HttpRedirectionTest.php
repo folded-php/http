@@ -10,7 +10,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Http\Redirection;
+use Folded\Http\Redirection;
 
 final class HttpRedirectionTest extends TestCase
 {

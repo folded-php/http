@@ -10,7 +10,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Http\Success;
+use Folded\Http\Success;
 
 final class HttpSuccessTest extends TestCase
 {

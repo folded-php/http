@@ -10,7 +10,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Http\Information;
+use Folded\Http\Information;
 
 final class HttpInformationTest extends TestCase
 {

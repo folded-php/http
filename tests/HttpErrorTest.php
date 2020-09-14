@@ -10,7 +10,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Http\Error;
+use Folded\Http\Error;
 
 final class HttpErrorTest extends TestCase
 {
